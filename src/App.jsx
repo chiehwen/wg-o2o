@@ -508,11 +508,11 @@ const App = () => {
 
                                 <div className="space-y-4">
 
-                                    <div className="flex items-center p-4 bg-white shadow rounded-lg">
+                                    <div className="flex items-start p-4 bg-white shadow rounded-lg">
 
-                                        <div className="bg-gray-800 text-white p-2 rounded mr-4">預付制</div>
+                                        <div className="bg-gray-800 text-white px-4 py-2 rounded mr-4 whitespace-nowrap shrink-0 w-28 text-center">預付制</div>
 
-                                        <div>
+                                        <div className="flex-1 min-w-0">
 
                                             <span className="text-lg block">購買者一次付清，受贈者無付款壓力。</span>
 
@@ -522,19 +522,19 @@ const App = () => {
 
                                     </div>
 
-                                    <div className="flex items-center p-4 bg-white shadow rounded-lg">
+                                    <div className="flex items-start p-4 bg-white shadow rounded-lg">
 
-                                        <div className="bg-gray-800 text-white p-2 rounded mr-4">彈性啟用</div>
+                                        <div className="bg-gray-800 text-white px-4 py-2 rounded mr-4 whitespace-nowrap shrink-0 w-28 text-center">彈性啟用</div>
 
-                                        <span className="text-lg">享一年優惠效期（期滿視為現金抵用，需補差額）。</span>
+                                        <span className="text-lg flex-1 min-w-0">享一年優惠效期（期滿視為現金抵用，需補差額）。</span>
 
                                     </div>
 
-                                    <div className="flex items-center p-4 bg-white shadow rounded-lg">
+                                    <div className="flex items-start p-4 bg-white shadow rounded-lg">
 
-                                        <div className="bg-gray-800 text-white p-2 rounded mr-4">鎖定業績</div>
+                                        <div className="bg-gray-800 text-white px-4 py-2 rounded mr-4 whitespace-nowrap shrink-0 w-28 text-center">鎖定業績</div>
 
-                                        <span className="text-lg">非購買者不得退現，大幅降低合約糾紛。</span>
+                                        <span className="text-lg flex-1 min-w-0">非購買者不得退現，大幅降低合約糾紛。</span>
 
                                     </div>
 
